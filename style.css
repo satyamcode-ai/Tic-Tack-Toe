@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(142, 167, 250);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.msg-container{
+    margin-top: 20%;
+    margin-bottom: 20%;
+    font-size: 7vmin;
+}
+
+.hide {
+    display: none;
+  }  
+
+#new-btn{
+    height: 5vmin;
+    width: 23vmin;
+    border-radius: 1.5rem;
+    font-size: 3vmin;
+    font-weight: bold;
+    border: none;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5);
+    background-color: antiquewhite;
+    margin-top: 5vmin;
+    margin-left: 30vmin;
+}
+
+#reset-btn:hover{
+    border: 2px solid rgb(13, 30, 67);
+}
+
+.heading{
+    height: 12vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 1.5rem;
+    color: rgb(21, 28, 53);
+}
+
+.container{
+    margin-top: 4vh;
+    height: 68vmin;
+    width: 63vmin;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.button{
+    height: 17vmin;
+    width: 17vmin;
+    border: none;
+    font-size: 9vmin;
+    background-color: beige;
+    color: rgb(255, 0, 0);
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.button:hover{
+    border: 5px solid rgb(13, 30, 67);
+}
+
+#reset-btn{
+    height: 5vmin;
+    width: 23vmin;
+    border-radius: 1.5rem;
+    font-size: 3vmin;
+    font-weight: bold;
+    border: none;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5);
+    background-color: antiquewhite;
+    margin-top: 5vmin;
+}
+
+#reset-btn:hover{
+    border: 2px solid rgb(13, 30, 67);
+}
+
+.footer{
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7vh;
+    color: rgb(20, 26, 60);
+    font-size: 18px;
+}
+
+@media (max-width: 400px) {
+    .container{
+        margin-top: 15vmin;
+        height: 75vmin;
+  }
+    .button:hover{
+        border: 3px solid rgb(13, 30, 67);
+    }
+    #reset-btn:hover{
+        border: 2px solid rgb(13, 30, 67);
+    }
+    .footer{
+        font-size: 3vmin;
+    }
+
+    .msg-container{
+        margin-top: 80%;
+        margin-bottom: 90%;
+    }
+
+    #new-btn{
+        margin-left: 36%;
+    }
+}
